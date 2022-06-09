@@ -27,10 +27,10 @@
                          
                          <!--회원가입 인풋-->
                         <form class="login__input"  action="/auth/signup" method="post">
-                            <input type="text" name="username" placeholder="ID" required="required" csrf="KFC"/>
-                            <input type="password" name="password" placeholder="Password" required="required" csrf="KFC"/>
-                            <input type="email" name="email" placeholder="E-mail" required="required" csrf="KFC"/>
-                            <input type="text" name="name" placeholder="Name" required="required" csrf="KFC"/>
+                            <input type="text" name="username" placeholder="ID" required="required" />
+                            <input type="password" name="password" placeholder="Password" required="required" />
+                            <input type="text" name="name" placeholder="Name" required="required" />
+                            <input type="email" name="email" placeholder="E-mail" required="required" />
                             <button>가입</button>
                         </form>
                         <!--회원가입 인풋end-->
