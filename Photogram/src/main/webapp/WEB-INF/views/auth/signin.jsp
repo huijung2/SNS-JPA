@@ -24,7 +24,7 @@
                         <h1><img src="/images/logo.jpg" alt=""></h1>
                         
                         <!--로그인 인풋-->
-                        <form class="login__input" >
+                        <form class="login__input" action="/auth/signin"method="POST">
                             <input type="text" name="username" placeholder="ID" required="required" maxlength="20"/>
                             <input type="password" name="password" placeholder="Password" required="required" />
                             <button>로그인</button>
