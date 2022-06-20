@@ -18,6 +18,8 @@ public class SignupDto {
 	private String email;
 	@NotBlank
 	private String name;
+	private String gender;
+	private String phone;
 	
 	public User toEntitiy() {
 		return User.builder()
@@ -25,6 +27,8 @@ public class SignupDto {
 				.password(password)
 				.email(email)
 				.name(name)
+				.gender(gender)
+				.phone(phone)
 				.build();
 	}
 }
