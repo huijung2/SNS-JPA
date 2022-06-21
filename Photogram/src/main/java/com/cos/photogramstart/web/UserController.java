@@ -17,6 +17,7 @@ public class UserController {
 	public String update(@PathVariable int id, @AuthenticationPrincipal PrincipalDetails principalDetails) {
 		//세션정보 확인 @AuthenticationPrincipal
 		System.out.println("세션정보 : "+principalDetails.getUser());
+		
 		return "user/update";
 	}
 }

@@ -30,11 +30,10 @@
                             <input type="text" name="username" placeholder="ID" required="required" maxlength="20"/>
                             <input type="password" name="password" placeholder="Password" required="required" />
                             <input type="text" name="name" placeholder="Name" required="required" />
-                            남<input type="radio" name="gender" value="남">			
-						    여<input type="radio" name="gender" value="여">
-						    <input type="number" name="phone" placeholder="phone" required="required" maxlength="11"/>
+                            <input type="text" name="gender" placeholder="gender: 남자/여자 작성">			
+						    <input type="number" name="phone" placeholder="phone: 숫자만 작성" required="required" maxlength="11"/>
                             <input type="email" name="email" placeholder="E-mail" required="required" />
-                            <button>가입</button>
+                            <button>가입</button>        
                         </form>
                         <!--회원가입 인풋end-->
                     </div>
