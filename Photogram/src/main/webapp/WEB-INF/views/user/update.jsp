@@ -22,7 +22,7 @@
 			<!--프로필셋팅 아이디영역end-->
 
 			<!--프로필 수정-->
-			<form id="profileUpdate" onsubmit="update(${principal.user.id}, event)">
+			<form id="profileUpdate"  onsubmit="update(${principal.user.id}, event)">
 				<div class="content-item__02">
 					<div class="item__title">이름</div>
 					<div class="item__input">
@@ -71,7 +71,7 @@
 					</div>
 				</div>
 				<div class="content-item__09">
-					<div class="item__title">전회번호</div>
+					<div class="item__title">전화번호</div>
 					<div class="item__input">
 						<input type="number" name="phone" placeholder="전화번호"
 							value="${principal.user.phone}" />
